@@ -1,0 +1,21 @@
+*,
+*::after *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+#particles-js {
+  background-image: url("../images/dots.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  box-sizing: border-box;
+}
