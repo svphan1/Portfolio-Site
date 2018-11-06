@@ -2,7 +2,7 @@
   &:link,
   &:visited {
     color: $color-white;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     text-decoration: none;
     border: 1px solid $color-white;
     font-size: 1.4rem;
@@ -14,12 +14,12 @@
 
   &:hover {
     transform: translateY(-3px);
-    color: $color-light-green;
-    border: 1px solid $color-light-green;
+    color: $color-blue-green;
+    border: 1px solid $color-blue-green;
     box-shadow: 0 1.2rem 2rem rgba($color-black, 0.2);
 
     &::after {
-      transform: scaleX(1.4) scaleY(1.6);
+      transform: scaleX(1.8) scaleY(2.0);
       opacity: 0;
     }
   }
