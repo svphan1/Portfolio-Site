@@ -6,9 +6,11 @@
   "dependencies": {
     "particles.js": "^2.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.10.0"
+  },
   "scripts": {
-    "start": "node index.html"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "keywords": [],
   "author": "",
