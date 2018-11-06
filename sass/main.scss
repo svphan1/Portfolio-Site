@@ -1,5 +1,7 @@
 $color-white: #eee;
 $color-light-green: lightgreen;
+$color-black: black;
+$color-light-grey: rgba(138, 132, 132);
 
 *,
 *::after
@@ -10,13 +12,11 @@ $color-light-green: lightgreen;
 }
 
 html {
-  /* use % here to allow users to change font size responsively */
   font-size: 62.5%;
 }
 
 #particles-js {
   background-image: url('../images/dots.png');
-  /* background-color: rgb(38, 41, 51); */
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,7 +25,6 @@ html {
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  /* font-size: 16px; */
   line-height: 1.7;
   box-sizing: border-box;
 }
@@ -119,12 +118,12 @@ body {
   transform: translateY(-3px);
   color: $color-light-green;
   border: 1px solid $color-light-green;
-  box-shadow: 0 1.2rem 2rem rgba(0,0,0,.2);
+  box-shadow: 0 1.2rem 2rem rgba($color-black,.2);
 }
 
 .btn:active {
   transform: translateY(-3px);
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+  box-shadow: 0 .5rem 1rem rgba($color-black,.2);
 }
 
 .btn:after {
@@ -142,11 +141,10 @@ body {
 }
 
 .btn--grey::after {
-  background-color: rgba(138, 132, 132, 0.2);
+  background-color: rgba($color-light-grey, 0.2);
 }
 
 .btn:hover::after {
-  /* scale increases the elemet */
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
 }

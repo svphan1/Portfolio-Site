@@ -6,12 +6,10 @@
   box-sizing: inherit; }
 
 html {
-  /* use % here to allow users to change font size responsively */
   font-size: 62.5%; }
 
 #particles-js {
   background-image: url("../images/dots.png");
-  /* background-color: rgb(38, 41, 51); */
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -19,7 +17,6 @@ html {
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-  /* font-size: 16px; */
   line-height: 1.7;
   box-sizing: border-box; }
 
@@ -114,7 +111,6 @@ body {
   background-color: rgba(138, 132, 132, 0.2); }
 
 .btn:hover::after {
-  /* scale increases the elemet */
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0; }
 
