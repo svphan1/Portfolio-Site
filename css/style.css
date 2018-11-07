@@ -137,6 +137,11 @@ body {
   animation: moveInBottom 1s ease-out 0.75s;
   animation-fill-mode: backwards; }
 
+.composition__photo {
+  width: 75%;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+  clip-path: polygon(30% 0%, 70% 0%, 90% 50%, 90% 50%, 70% 100%, 30% 100%, 10% 50%, 10% 50%); }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
