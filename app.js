@@ -3,8 +3,3 @@
 //   console.log('callback - particles.js config loaded');
 // });
 
-$(".btn").click(function() {
-  $('html,body').animate({
-      scrollTop: $(".section-about").offset().top},
-      'slow');
-});
