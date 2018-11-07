@@ -70,10 +70,12 @@ body {
   display: inline-block;
   background-image: linear-gradient(to right, #4a998e, #1c4069);
   -webkit-background-clip: text;
-  color: transparent; }
+  color: transparent;
+  margin-top: -2rem; }
 
 .heading-tertiary {
   font-size: 1.6rem;
+  text-align: center;
   font-weight: 700;
   text-transform: uppercase; }
 
@@ -138,9 +140,9 @@ body {
   animation-fill-mode: backwards; }
 
 .composition__photo {
-  width: 75%;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-  clip-path: polygon(30% 0%, 70% 0%, 90% 50%, 90% 50%, 70% 100%, 30% 100%, 10% 50%, 10% 50%); }
+  width: 85%;
+  filter: drop-shadow(0px 10px 5px rgba(0, 0, 0, 0.1));
+  clip-path: polygon(50% 0%, 90% 25%, 90% 75%, 50% 100%, 10% 75%, 10% 25%); }
 
 .row {
   max-width: 114rem;

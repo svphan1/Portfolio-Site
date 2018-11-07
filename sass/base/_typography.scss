@@ -32,10 +32,12 @@ body {
   background-image: linear-gradient(to right, $color-main-light, $color-main);
   -webkit-background-clip: text;
   color: transparent;
+  margin-top: -2rem;
 }
 
 .heading-tertiary {
   font-size: $default-font-size;
+  text-align: center;
   font-weight: 700;
   text-transform: uppercase;
 }
