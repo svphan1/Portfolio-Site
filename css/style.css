@@ -87,12 +87,14 @@ body {
 .paragraph {
   font-size: 1.6rem; }
 
-.skills-client,
-.skills-server {
+.skills-front,
+.skills-back {
   font-size: 1.6rem;
   text-align: center;
   font-weight: 700;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+  margin-top: 4rem; }
 
 .u-center-text {
   text-align: center; }
@@ -149,10 +151,17 @@ body {
   animation: moveInBottom 1s ease-out 0.75s;
   animation-fill-mode: backwards; }
 
-.composition__photo {
-  width: 85%;
+.composition__profile {
+  max-width: 100%;
   margin-bottom: 3rem;
   clip-path: polygon(50% 0%, 90% 25%, 90% 75%, 50% 100%, 10% 75%, 10% 25%); }
+
+.composition__pic {
+  width: 12%;
+  margin: 5px; }
+
+.composition__pic--1 {
+  width: 19%; }
 
 .row {
   max-width: 114rem;

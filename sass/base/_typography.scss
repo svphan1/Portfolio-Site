@@ -56,10 +56,12 @@ body {
   // }
 }
 
-.skills-client,
-.skills-server {
+.skills-front,
+.skills-back {
   font-size: $default-font-size;
   text-align: center;
   font-weight: 700;
   text-transform: uppercase;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
 }
