@@ -1,19 +1,31 @@
 .composition {
   
   &__profile {
-    max-width: 100%;
+    max-width: 80%;
     margin-bottom: 3rem;
-    // box-shadow: 5rem 1.5rem 4rem rgba($color-black, .4);
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 4rem rgba($color-black, .4);
     clip-path: polygon(50% 0%, 90% 25%, 90% 75%, 50% 100%, 10% 75%, 10% 25%);
     // clip-path: polygon(30% 0%, 70% 0%, 90% 50%, 90% 50%, 70% 100%, 30% 100%, 10% 50%, 10% 50%);
   }
+}
 
-  &__pic {
-    width: 12%;
-    margin: 5px;
-  }
+.skill-card {
+  display: inline-block;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 8rem;
+  height: 12rem;
+  text-align: center;
+  margin-right: .5rem;
+  overflow: auto;
+}
 
-  &__pic--1 {
-    width: 19%;
-  }
+.container {
+  padding: 1px;
+}
+
+img{
+  width: 100%;
 }
