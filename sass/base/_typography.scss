@@ -50,7 +50,9 @@ body {
 
 .paragraph {
   font-size: $default-font-size;
-  
+  text-align: center;
+  margin-bottom: 3.5rem;
+  width: 85%;
   // &:not(:last-child) {
   //   margin-bottom: 3rem;
   // }
