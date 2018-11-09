@@ -109,6 +109,12 @@ body {
   margin-bottom: 4rem;
   margin-top: 2rem; }
 
+.footnote {
+  color: #8a8484;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem; }
+
 .u-center-text {
   text-align: center; }
 
@@ -199,6 +205,19 @@ img {
   .project-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
+.contact-icons {
+  width: 22rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
+.icon-animate:hover {
+  transition: all .2s;
+  transform: scaleY(1.1) scaleX(1.2); }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -238,3 +257,13 @@ img {
   padding: 10rem 0;
   margin-top: -9rem;
   clip-path: polygon(50% 20%, 100% 0, 100% 100%, 0 100%, 0 0); }
+
+.section-footer {
+  background-color: #081a27;
+  padding-top: 3rem;
+  margin-top: -.2rem;
+  padding-bottom: 2rem; }
+
+hr {
+  width: 30%;
+  border: 0.5px solid #8a8484; }

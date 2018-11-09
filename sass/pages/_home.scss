@@ -16,3 +16,15 @@
   clip-path: polygon(50% 20%, 100% 0, 100% 100%, 0 100%, 0 0);
 }
 
+.section-footer {
+  background-color: $color-main-dark;
+  padding-top: 3rem;
+  margin-top: -.2rem;
+  padding-bottom: 2rem;
+}
+
+hr {
+  width: 30%;
+  border: .5px solid $color-light-grey;
+}
+
