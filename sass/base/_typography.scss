@@ -6,7 +6,7 @@ body {
 
 .header-primary {
   color: $color-white;
-  // text-transform: uppercase;
+  text-transform: uppercase;
   margin-bottom: 4rem;
 
   &--main {
@@ -46,6 +46,16 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   margin-top: -2rem;
+}
+
+.heading-contact {
+    color: $color-white;
+    font-size: $large-font-size;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: -20px;
+    padding-top: 8rem;
 }
 
 .paragraph {

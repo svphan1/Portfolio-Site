@@ -50,7 +50,8 @@ body {
   line-height: 1.7; }
 
 .header-primary {
-  color: #eee;
+  color: #f7f7f7;
+  text-transform: uppercase;
   margin-bottom: 4rem; }
   .header-primary--main {
     display: block;
@@ -84,6 +85,15 @@ body {
   color: transparent;
   margin-top: -2rem; }
 
+.heading-contact {
+  color: #f7f7f7;
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: -20px;
+  padding-top: 8rem; }
+
 .paragraph {
   font-size: 1.6rem;
   text-align: center;
@@ -112,9 +122,10 @@ body {
   margin-bottom: 9rem; }
 
 .btn:link, .btn:visited {
-  color: #eee;
+  color: #f7f7f7;
+  text-transform: uppercase;
   text-decoration: none;
-  border: 1px solid #eee;
+  border: 1px solid #f7f7f7;
   font-size: 1.6rem;
   padding: 1rem 1.5rem;
   border-radius: 10rem;
@@ -178,7 +189,7 @@ img {
   width: 100%; }
 
 .project-box {
-  background-color: rgba(238, 238, 238, 0.8);
+  background-color: rgba(247, 247, 247, 0.8);
   padding: 2.5rem;
   padding-bottom: 30rem;
   text-align: center;
@@ -219,4 +230,11 @@ img {
 
 .section-projects {
   background-color: #eee;
-  padding: 10rem 0; }
+  padding: 10rem 0;
+  padding-bottom: 31rem; }
+
+.section-contacts {
+  background-color: #0b2130;
+  padding: 10rem 0;
+  margin-top: -9rem;
+  clip-path: polygon(50% 20%, 100% 0, 100% 100%, 0 100%, 0 0); }
