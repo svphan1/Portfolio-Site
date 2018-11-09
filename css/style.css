@@ -177,6 +177,17 @@ body {
 img {
   width: 100%; }
 
+.project-box {
+  background-color: rgba(238, 238, 238, 0.8);
+  padding: 2.5rem;
+  padding-bottom: 30rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  transition: transform .3s; }
+  .project-box:hover {
+    transform: translateY(-1.5rem) scale(1.03); }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -192,6 +203,8 @@ img {
       margin-right: 6rem; }
   .row .col-1-of-2 {
     width: calc((100% - 6rem) / 2); }
+  .row .col-1-of-3 {
+    width: calc((100% - 2 * 6rem) / 3); }
 
 .header__text-box {
   position: absolute;
