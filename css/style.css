@@ -26,6 +26,16 @@
     opacity: 1;
     transform: translate(0); } }
 
+@keyframes moveInLeftLong {
+  0% {
+    opacity: 0;
+    transform: translateX(-30rem); }
+  80% {
+    transform: translateX(1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
 *,
 *::after *::before {
   margin: 0;
@@ -72,7 +82,8 @@ body {
   background-image: linear-gradient(to right, #4a998e, #1c4069);
   -webkit-background-clip: text;
   color: transparent;
-  margin-top: -2rem; }
+  margin-top: -2rem;
+  animation: moveInLeftLong .85s ease-out; }
 
 .heading-tertiary {
   font-size: 2.6rem;
@@ -132,7 +143,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   border: 1px solid #f7f7f7;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   padding: 1rem 1.5rem;
   border-radius: 10rem;
   transition: all 0.2s;
