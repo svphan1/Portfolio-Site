@@ -208,7 +208,6 @@ img {
 .project-box {
   background-color: rgba(247, 247, 247, 0.8);
   padding: 2.5rem;
-  padding-bottom: 30rem;
   text-align: center;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
@@ -265,9 +264,9 @@ img {
 
 .section-contacts {
   background-color: #0b2130;
-  padding: 10rem 0;
+  padding: 1rem 0;
   margin-top: -9rem;
-  clip-path: polygon(50% 20%, 100% 0, 100% 100%, 0 100%, 0 0); }
+  clip-path: polygon(50% 30%, 100% 0, 100% 100%, 0 100%, 0 0); }
 
 .section-footer {
   background-color: #081a27;
