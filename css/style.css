@@ -120,6 +120,11 @@ body {
   margin-bottom: 4rem;
   margin-top: 2rem; }
 
+.project {
+  font-size: 1.6em; }
+  .project-box__text {
+    font-size: 1.2em; }
+
 .footnote {
   color: #8a8484;
   text-align: center;

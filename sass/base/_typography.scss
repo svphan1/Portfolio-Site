@@ -76,6 +76,14 @@ body {
   margin-top: 2rem;
 }
 
+.project {
+  font-size: 1.6em;
+
+  &-box__text {
+    font-size: 1.2em;
+  }
+}
+
 .footnote {
   color: $color-light-grey;
   text-align: center;
