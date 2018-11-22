@@ -1,3 +1,3 @@
-# Portfolio website for my profile and projects.
+# Portfolio website for my profile and projects. Currently in progress.
 
-Live Link: 
+Current Progress Live Link: http://sonphan-porfolio.surge.sh/#
