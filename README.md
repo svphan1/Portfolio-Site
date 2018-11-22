@@ -1,4 +1,4 @@
-# Portfolio website for my profile and projects made with JavaScript, Sass, HTML, and CSS.
-# Currently in progress.
+# Portfolio website for my projects made with JavaScript, Sass, HTML, and CSS.
 
-Current Progress Live Link: http://son-portfoliosite.surge.sh/
+Currently in progress.
+Live Link: http://son-portfoliosite.surge.sh/
