@@ -17,16 +17,18 @@
     <div class="navigation">
       <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
 
-      <label for="navi-toggle" class="navigation__button">Menu</label>
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
 
       <div class="navigation__background">&nbsp;</div>
 
       <nav class="navigation__nav">
         <ul class="navigation__list">
           <li class="navigation__item"><a href="" class="navigation__link">Home</a></li>
-          <li class="navigation__item"><a href="" class="navigation__link">About</a></li>
-          <li class="navigation__item"><a href="" class="navigation__link">Projects</a></li>
-          <li class="navigation__item"><a href="" class="navigation__link">Contact</a></li>
+          <li class="navigation__item"><a href="#nav-about" class="navigation__link">About</a></li>
+          <li class="navigation__item"><a href="#nav-projects" class="navigation__link">Projects</a></li>
+          <li class="navigation__item"><a href="#nav-contact" class="navigation__link">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -45,7 +47,7 @@
     <main>
       <section class="section-about">
         <div class="u-center-text u-margin-bottom-medium">
-          <h2 class="heading-secondary">About</h2>
+          <h2 class="heading-secondary" id="nav-about">About</h2>
         </div>
 
         <div class="row">
@@ -141,7 +143,7 @@
 
       <section class="section-projects">
         <div class="u-center-text u-margin-bottom-medium">
-          <h2 class="heading-secondary">Projects</h2>
+          <h2 class="heading-secondary" id="nav-projects">Projects</h2>
 
           <div class="row">
             <div class="col-1-of-3">
@@ -188,7 +190,7 @@
 
       <section class="section-contacts">
         <div class="u-center-text u-margin-bottom-medium">
-          <h2 class="heading-contact">Contact</h2>
+          <h2 class="heading-contact" id="nav-contact">Contact</h2>
         </div>
       </section>
 
