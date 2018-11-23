@@ -130,7 +130,7 @@ body {
   margin-top: 1rem;
   margin-bottom: 0;
   padding-top: 8rem;
-  animation: moveInRightLong .85s ease-out; }
+  animation: moveInLeftLong .85s ease-out; }
 
 .paragraph {
   font-size: 1.6rem;
