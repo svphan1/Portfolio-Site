@@ -29,11 +29,22 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
-  background-image: linear-gradient(to right, $color-main-light, $color-main);
+  color: $color-section;
+  // background-image: linear-gradient(to right, $color-main-light, $color-main);
   -webkit-background-clip: text;
-  color: transparent;
+  // color: transparent;
   margin-top: -2rem;
+  margin-bottom: auto;
   animation: moveInLeftLong .85s ease-out;
+}
+
+.section-bar {
+  width: 7rem;
+  height: .4rem;
+  background: $color-section;
+  margin: 0 auto 10rem;
+  animation: moveInLeftLong .75s ease both;
+  animation-delay: 0.5s;
 }
 
 .heading-tertiary {

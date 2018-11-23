@@ -79,11 +79,19 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
-  background-image: linear-gradient(to right, #4a998e, #1c4069);
+  color: #404347;
   -webkit-background-clip: text;
-  color: transparent;
   margin-top: -2rem;
+  margin-bottom: auto;
   animation: moveInLeftLong .85s ease-out; }
+
+.section-bar {
+  width: 7rem;
+  height: .4rem;
+  background: #404347;
+  margin: 0 auto 10rem;
+  animation: moveInLeftLong .75s ease both;
+  animation-delay: 0.5s; }
 
 .heading-tertiary {
   font-size: 2.6rem;
@@ -368,11 +376,11 @@ img {
 
 .section-about {
   background-color: white;
-  padding: 10rem 0; }
+  padding: 8rem 0; }
 
 .section-projects {
   background-color: #eee;
-  padding: 10rem 0;
+  padding: 8rem 0;
   padding-bottom: 31rem; }
 
 .section-contacts {
