@@ -28,3 +28,7 @@ var btn = document.querySelector('.btn');
 btn.addEventListener('click', function() {
   scroll('.section-about', 1000);
 });
+
+function closeNav() {
+  document.getElementById("navi-toggle").checked = false;
+};
