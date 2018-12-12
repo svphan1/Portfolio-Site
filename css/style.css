@@ -65,7 +65,7 @@ body {
   box-sizing: border-box; }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-weight: 400;
   line-height: 1.7; }
 
@@ -86,9 +86,10 @@ body {
 
 .heading-secondary {
   font-size: 4rem;
+  text-align: center;
   text-transform: uppercase;
   font-weight: 700;
-  display: inline-block;
+  display: inherit;
   color: #404347;
   -webkit-background-clip: text;
   margin-top: -2rem;
@@ -146,11 +147,6 @@ body {
   text-transform: uppercase;
   margin-bottom: 4rem;
   margin-top: 2rem; }
-
-.project {
-  font-size: 1.6em; }
-  .project-box__text {
-    font-size: 1.2em; }
 
 .footnote {
   color: #8a8484;
@@ -237,15 +233,22 @@ body {
 img {
   width: 100%; }
 
-.project-box {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 2.5rem;
-  text-align: center;
-  border-radius: 3px;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-  transition: transform .3s; }
-  .project-box:hover {
-    transform: translateY(-1.5rem) scale(1.03); }
+.project-row {
+  display: flex;
+  align-items: center; }
+
+.project-headers {
+  font-size: 2.6rem;
+  text-align: left;
+  margin-bottom: -3rem; }
+
+.project-paragraph {
+  font-size: 1.6rem;
+  margin-right: 5rem; }
+
+.project-photos {
+  width: 50%;
+  border-radius: 2rem; }
 
 .contact-icons {
   width: 22rem;
@@ -395,12 +398,11 @@ img {
 
 .section-about {
   background-color: white;
-  padding: 8rem 0; }
+  padding: 8rem 10vw 3vw 10vw; }
 
 .section-projects {
   background-color: #eee;
-  padding: 8rem 0;
-  padding-bottom: 31rem; }
+  padding: 8rem 10vw 31rem 10vw; }
 
 .section-contacts {
   background-color: #0b2130;
