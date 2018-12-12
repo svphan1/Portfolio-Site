@@ -250,6 +250,14 @@ img {
   width: 50%;
   border-radius: 2rem; }
 
+.project-hr {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid #a7c0b7;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  position: relative; }
+
 .contact-icons {
   width: 22rem;
   display: flex;
