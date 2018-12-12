@@ -12,6 +12,7 @@
 .project-paragraph {
   font-size: $default-font-size;
   margin-right: 5rem;
+  padding-top: 1rem;
 }
 
 .project-photos {
@@ -27,3 +28,16 @@
   margin-bottom: 6rem;
   position: relative;
 }
+
+.links {
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+  letter-spacing: .2rem;
+  border-bottom: 1px solid black;
+}
+
+// .link:visited {
+//   color: white;
+//   background-color: black;
+// }
