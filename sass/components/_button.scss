@@ -38,7 +38,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    /* z-index hides the pesudo btn behind the real btn */
     z-index: -1;
     transition: all 0.4s;
   }

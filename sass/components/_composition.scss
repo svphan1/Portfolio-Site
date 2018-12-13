@@ -1,31 +1,29 @@
 .composition {
-  
   &__profile {
     max-width: 85%;
     margin-bottom: 1rem;
     border-radius: 1rem;
-    box-shadow: 0 .5rem 4rem rgba($color-black, .4);
+    box-shadow: 0 0.5rem 4rem rgba($color-black, 0.4);
     clip-path: polygon(50% 0%, 90% 25%, 90% 75%, 50% 100%, 10% 75%, 10% 25%);
-    // clip-path: polygon(30% 0%, 70% 0%, 90% 50%, 90% 50%, 70% 100%, 30% 100%, 10% 50%, 10% 50%);
   }
 }
 
 .skill-card {
   display: inline-block;
   border-radius: 1rem;
-  box-shadow: 0 .4rem .8rem rgba(0,0,0,0.2);
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.2);
   width: 8rem;
   text-align: center;
-  margin-right: .6rem;
+  margin-right: 0.6rem;
   overflow: auto;
 
   &:hover {
-    transform: scaleY(1.05) scaleX(1.1);
-    transition: all .2s;
-    box-shadow: .4rem 1rem 1.6rem rgba(0,0,0,.2);
+    transform: scaleY(1.05) scaleX(1.05);
+    transition: all 0.2s;
+    box-shadow: 0.4rem 1rem 1.6rem rgba(0, 0, 0, 0.2);
   }
 }
 
-img{
+img {
   width: 100%;
 }

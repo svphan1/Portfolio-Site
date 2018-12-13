@@ -1,5 +1,5 @@
 body {
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Varela Round", sans-serif;
   font-weight: 400;
   line-height: 1.7;
 }
@@ -31,28 +31,26 @@ body {
   font-weight: 700;
   display: inherit;
   color: $color-section;
-  // background-image: linear-gradient(to right, $color-main-light, $color-main);
   -webkit-background-clip: text;
-  // color: transparent;
   margin-top: -2rem;
   margin-bottom: auto;
-  animation: moveInLeftLong .85s ease-out;
+  animation: moveInLeftLong 0.85s ease-out;
 }
 
 .section-bar {
   width: 7rem;
-  height: .4rem;
+  height: 0.4rem;
   background: $color-section;
   margin: 0 auto 10rem;
-  animation: moveInLeftLong .75s ease both;
+  animation: moveInLeftLong 0.75s ease both;
   animation-delay: 0.5s;
 
   &-contact {
     width: 7rem;
-    height: .4rem;
+    height: 0.4rem;
     background: $color-white;
     margin: 0 auto 3rem;
-    animation: moveInLeftLong .75s ease both;
+    animation: moveInLeftLong 0.75s ease both;
     animation-delay: 0.5s;
   }
 }
@@ -71,15 +69,15 @@ body {
 }
 
 .heading-contact {
-    color: $color-white;
-    font-size: $large-font-size;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-top: 1rem;
-    margin-bottom: 0;
-    padding-top: 8rem;
-    animation: moveInLeftLong .85s ease-out;
+  color: $color-white;
+  font-size: $large-font-size;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  padding-top: 8rem;
+  animation: moveInLeftLong 0.85s ease-out;
 }
 
 .paragraph {

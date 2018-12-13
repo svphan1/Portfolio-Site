@@ -65,7 +65,7 @@ body {
   box-sizing: border-box; }
 
 body {
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Varela Round", sans-serif;
   font-weight: 400;
   line-height: 1.7; }
 
@@ -94,21 +94,21 @@ body {
   -webkit-background-clip: text;
   margin-top: -2rem;
   margin-bottom: auto;
-  animation: moveInLeftLong .85s ease-out; }
+  animation: moveInLeftLong 0.85s ease-out; }
 
 .section-bar {
   width: 7rem;
-  height: .4rem;
+  height: 0.4rem;
   background: #404347;
   margin: 0 auto 10rem;
-  animation: moveInLeftLong .75s ease both;
+  animation: moveInLeftLong 0.75s ease both;
   animation-delay: 0.5s; }
   .section-bar-contact {
     width: 7rem;
-    height: .4rem;
+    height: 0.4rem;
     background: white;
     margin: 0 auto 3rem;
-    animation: moveInLeftLong .75s ease both;
+    animation: moveInLeftLong 0.75s ease both;
     animation-delay: 0.5s; }
 
 .heading-tertiary {
@@ -131,7 +131,7 @@ body {
   margin-top: 1rem;
   margin-bottom: 0;
   padding-top: 8rem;
-  animation: moveInLeftLong .85s ease-out; }
+  animation: moveInLeftLong 0.85s ease-out; }
 
 .paragraph {
   font-size: 1.6rem;
@@ -199,7 +199,6 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  /* z-index hides the pesudo btn behind the real btn */
   z-index: -1;
   transition: all 0.4s; }
 
@@ -223,11 +222,11 @@ body {
   box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.2);
   width: 8rem;
   text-align: center;
-  margin-right: .6rem;
+  margin-right: 0.6rem;
   overflow: auto; }
   .skill-card:hover {
-    transform: scaleY(1.05) scaleX(1.1);
-    transition: all .2s;
+    transform: scaleY(1.05) scaleX(1.05);
+    transition: all 0.2s;
     box-shadow: 0.4rem 1rem 1.6rem rgba(0, 0, 0, 0.2); }
 
 img {
@@ -243,7 +242,7 @@ img {
   margin-bottom: -3rem; }
 
 .project-paragraph {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   margin-right: 5rem;
   padding-top: 1rem; }
 
@@ -263,8 +262,13 @@ img {
   font-weight: 700;
   color: black;
   text-decoration: none;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   border-bottom: 1px solid black; }
+
+.links:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer; }
 
 .contact-icons {
   width: 22rem;
