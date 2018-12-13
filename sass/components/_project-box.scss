@@ -10,7 +10,7 @@
 }
 
 .project-paragraph {
-  font-size: $default-font-size;
+  font-size: 1.7rem;
   margin-right: 5rem;
   padding-top: 1rem;
 }
@@ -37,7 +37,8 @@
   border-bottom: 1px solid black;
 }
 
-// .link:visited {
-//   color: white;
-//   background-color: black;
-// }
+.links:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
