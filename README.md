@@ -3,6 +3,10 @@
 
 Deployed Link: http://sonphan-portfolio.surge.sh
 
-<img width="1422" alt="screen shot 2018-11-21 at 22 28 25" src="https://user-images.githubusercontent.com/36240410/48883477-3c4c7880-eddd-11e8-88f5-4485e7f983bf.png">
-<img width="1437" alt="screen shot 2018-11-21 at 22 33 30" src="https://user-images.githubusercontent.com/36240410/48883550-8afa1280-eddd-11e8-8246-f9adfe0a4278.png">
+<img width="1423" alt="screen shot 2018-12-13 at 21 33 32" src="https://user-images.githubusercontent.com/36240410/49983293-166b4d00-ff1f-11e8-839e-d924693822a1.png">
+
+<img width="1440" alt="screen shot 2018-12-13 at 21 34 03" src="https://user-images.githubusercontent.com/36240410/49983297-1d925b00-ff1f-11e8-8410-772e3f0ac692.png">
+
+<img width="1424" alt="screen shot 2018-12-13 at 21 34 20" src="https://user-images.githubusercontent.com/36240410/49983299-1f5c1e80-ff1f-11e8-8ea4-53091909e079.png">
+
 
