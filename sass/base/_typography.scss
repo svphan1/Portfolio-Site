@@ -34,7 +34,20 @@ body {
   -webkit-background-clip: text;
   margin-top: -2rem;
   margin-bottom: auto;
+  // animation: moveInLeftLong 0.85s ease-out;
+}
+
+.visible {
   animation: moveInLeftLong 0.85s ease-out;
+}
+
+.invisible {
+  transition: opacity 0.5s ease;
+  opacity: 0;
+}
+
+.barvisible {
+  animation: moveInLeftLong 0.75s ease both;
 }
 
 .section-bar {
@@ -42,7 +55,7 @@ body {
   height: 0.4rem;
   background: $color-section;
   margin: 0 auto 10rem;
-  animation: moveInLeftLong 0.75s ease both;
+  // animation: moveInLeftLong 0.75s ease both;
   animation-delay: 0.5s;
 
   &-contact {
@@ -50,7 +63,7 @@ body {
     height: 0.4rem;
     background: $color-white;
     margin: 0 auto 3rem;
-    animation: moveInLeftLong 0.75s ease both;
+    // animation: moveInLeftLong 0.75s ease both;
     animation-delay: 0.5s;
   }
 }
@@ -77,7 +90,7 @@ body {
   margin-top: 1rem;
   margin-bottom: 0;
   padding-top: 8rem;
-  animation: moveInLeftLong 0.85s ease-out;
+  // animation: moveInLeftLong 0.85s ease-out;
 }
 
 .paragraph {

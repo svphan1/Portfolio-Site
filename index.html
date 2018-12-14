@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
     <link
       href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
@@ -63,8 +64,8 @@
     <main>
       <section class="section-about">
         <div class="u-center-text u-margin-bottom-medium">
-          <h2 class="heading-secondary" id="nav-about">About</h2>
-          <div class="section-bar"></div>
+          <h2 class="heading-secondary" id="nav-about" data-scroll="toggle(.visible, .invisible) once">About</h2>
+          <div class="section-bar" data-scroll="toggle(.barvisible, .invisible) once"></div>
         </div>
 
         <div class="row">
@@ -159,8 +160,8 @@
       </section>
 
       <section class="section-projects">
-          <h2 class="heading-secondary" id="nav-projects">Projects</h2>
-          <div class="section-bar"></div>
+          <h2 class="heading-secondary" id="nav-projects" data-scroll="toggle(.visible, .invisible) once">Projects</h2>
+          <div class="section-bar" data-scroll="toggle(.barvisible, .invisible) once"></div>
 
           <div class="row">
             <div class="project-block">
@@ -232,8 +233,8 @@
 
       <section class="section-contacts">
         <div class="u-center-text u-margin-bottom-medium">
-          <h2 class="heading-contact" id="nav-contact">Contact</h2>
-          <div class="section-bar-contact"></div>
+          <h2 class="heading-contact" id="nav-contact" data-scroll="toggle(.visible, .invisible) once">Contact</h2>
+          <div class="section-bar-contact" data-scroll="toggle(.barvisible, .invisible) once"></div>
         </div>
       </section>
 
@@ -270,5 +271,11 @@
         console.log("particles.json loaded...");
       });
     </script>
+    <script src="./css/scroll.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function(){
+        var trigger = new ScrollTrigger()
+      })
+      </script>
   </body>
 </html>
