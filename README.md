@@ -1,5 +1,6 @@
-# Portfolio website for my projects. 
-## Made with JavaScript, Sass, HTML, and CSS
+# Portfolio Site
+Portfolio website for my projects.
+Made with JavaScript, Sass, HTML5, and CSS3.
 
 Deployed Link: http://sonphan-portfolio.surge.sh
 
