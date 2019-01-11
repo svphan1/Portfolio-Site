@@ -2,7 +2,7 @@
 Portfolio website for my projects.<br/>
 Made with JavaScript, Sass, HTML5, and CSS3.
 
-[Deployed Link](http://sonphan-portfolio.surge.sh)
+[Website](http://sonvphan.com/)
 
 <img width="1423" alt="screen shot 2018-12-13 at 21 33 32" src="https://user-images.githubusercontent.com/36240410/49983293-166b4d00-ff1f-11e8-839e-d924693822a1.png">
 
