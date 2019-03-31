@@ -3,7 +3,16 @@
     max-width: 85%;
     margin-bottom: 1rem;
     border-radius: 1rem;
+    -webkit-box-shadow: 0 0.5rem 4rem rgba($color-black, 0.4);
     box-shadow: 0 0.5rem 4rem rgba($color-black, 0.4);
+    -webkit-clip-path: polygon(
+      50% 0%,
+      90% 25%,
+      90% 75%,
+      50% 100%,
+      10% 75%,
+      10% 25%
+    );
     clip-path: polygon(50% 0%, 90% 25%, 90% 75%, 50% 100%, 10% 75%, 10% 25%);
   }
 }
@@ -11,6 +20,7 @@
 .skill-card {
   display: inline-block;
   border-radius: 1rem;
+  -webkit-box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.2);
   box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.2);
   width: 6.7rem;
   text-align: center;
@@ -18,8 +28,11 @@
   overflow: auto;
 
   &:hover {
+    -webkit-transform: scaleY(1.05) scaleX(1.05);
     transform: scaleY(1.05) scaleX(1.05);
+    -webkit-transition: all 0.2s;
     transition: all 0.2s;
+    -webkit-box-shadow: 0.4rem 1rem 1.6rem rgba(0, 0, 0, 0.2);
     box-shadow: 0.4rem 1rem 1.6rem rgba(0, 0, 0, 0.2);
   }
 }

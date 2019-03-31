@@ -13,6 +13,7 @@ body {
     display: block;
     font-size: 5rem;
     font-weight: 400;
+    -webkit-animation: moveInLeft 1.2s ease-out;
     animation: moveInLeft 1.2s ease-out;
   }
 
@@ -20,6 +21,7 @@ body {
     display: block;
     font-size: 3rem;
     font-weight: 400;
+    -webkit-animation: moveInRight 1.2s ease-out;
     animation: moveInRight 1.2s ease-out;
   }
 }
@@ -38,15 +40,18 @@ body {
 }
 
 .visible {
+  -webkit-animation: moveInLeftLong 0.85s ease-out;
   animation: moveInLeftLong 0.85s ease-out;
 }
 
 .invisible {
+  -webkit-transition: opacity 0.5s ease;
   transition: opacity 0.5s ease;
   opacity: 0;
 }
 
 .barvisible {
+  -webkit-animation: moveInLeftLong 0.75s ease both;
   animation: moveInLeftLong 0.75s ease both;
 }
 
@@ -56,6 +61,7 @@ body {
   background: $color-section;
   margin: 0 auto 10rem;
   // animation: moveInLeftLong 0.75s ease both;
+  -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s;
 
   &-contact {
@@ -64,6 +70,7 @@ body {
     background: $color-white;
     margin: 0 auto 3rem;
     // animation: moveInLeftLong 0.75s ease both;
+    -webkit-animation-delay: 0.5s;
     animation-delay: 0.5s;
   }
 }
@@ -74,6 +81,14 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   margin-top: -20px;
+
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from($color-main-light),
+    to($color-main)
+  );
 
   background-image: linear-gradient(to right, $color-main-light, $color-main);
   -webkit-background-clip: text;

@@ -6,12 +6,14 @@
 .section-projects {
   background-color: $color-white-dark;
   padding: 8rem 10vw 31rem 10vw;
+  margin-bottom: -21rem;
 }
 
 .section-contacts {
   background-color: $color-main-second;
   padding: 1rem 0;
   margin-top: -9rem;
+  -webkit-clip-path: polygon(50% 30%, 100% 0, 100% 100%, 0 100%, 0 0);
   clip-path: polygon(50% 30%, 100% 0, 100% 100%, 0 100%, 0 0);
 }
 
@@ -23,12 +25,11 @@
 .section-footer {
   background-color: $color-main-dark;
   padding-top: 3rem;
-  margin-top: -.2rem;
+  margin-top: -0.2rem;
   padding-bottom: 2rem;
 }
 
 hr {
   width: 30%;
-  border: .5px solid $color-light-grey;
+  border: 0.5px solid $color-light-grey;
 }
-
